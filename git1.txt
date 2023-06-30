@@ -1,0 +1,45 @@
+Initializing the Project:
+--------------------------------
+git clone https://github.com/msr2royal/Angular-crud-login-register.git
+or
+=========================================>1:git init   
+=========================================>2:git remote add origin https://github.com/msr2royal/tmt_logins
+ git config --global user.name "msr2royal"
+ git config --global user.email "msr2royal@gmail.com"
+            //login into github with credentials 
+
+Simple Commit
+---------------------
+git add README.md
+ 
+=========================================>3:git status
+=========================================>5:git commit -m "first commit"
+
+
+Adding Project Files
+-------------------
+git add .\data .\model LSTM_GRU.ipynb RNN.png
+or
+
+=========================================>4:git add .
+
+Commit and Push
+-----------------
+git commit -m "project files added"
+git push
+
+Git Branches
+--------------
+git checkout -b readme
+git add README.md
+git commit -m "project description and links to blog"
+
+=========================================>6:git push origin readme:readme
+
+Pull Request
+------------- 
+git pull
+
+Pull Log
+---------- 
+git log
